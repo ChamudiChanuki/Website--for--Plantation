@@ -1,0 +1,68 @@
+.content{
+    padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content>form{
+    width: 400px;
+    border: 1px solid #2c680c;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.topic{
+    text-align: center;
+    font-size: 23px;
+    background-color: #3a8611;
+    color: white;
+    padding: 2px;
+}
+
+.box{
+    margin: 10px 0 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+.box>label{
+    display: block;
+    color: #3a8611;
+    margin-bottom: 4px;
+}
+
+input[type=text],input[type=password]{
+    border: 1px solid #3a8611;
+    border-radius: 2px;
+    outline: none;
+    font-size: 16px;
+    padding: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29610b;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.buttons{
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=submit],input[type=reset]{
+    width: 80px;
+    height: 30px;
+    background-color: #3a8611;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: #4baa18;
+}
+
+input[type=submit]:active,input[type=reset]:active{
+    position: relative;
+    top: 2px;
+}

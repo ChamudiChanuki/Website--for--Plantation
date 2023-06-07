@@ -1,0 +1,35 @@
+.content{
+    padding: 10px;
+}
+
+.topic{
+    color: #3f7124;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sub-topic{
+    color: #3f7124;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.gallery{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery>img{
+    width: 22%;
+    min-width: 200px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 #3f7124;
+}
+
+.description>p{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

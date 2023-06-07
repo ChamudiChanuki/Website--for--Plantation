@@ -1,0 +1,129 @@
+/*
+*{
+   border: 1px solid black;
+}
+*/
+.content{
+    padding: 10px;
+    display: flex;
+}
+
+.left{
+    width:60%;
+    padding-right: 20px;
+    border-right: 1px solid #589d32;
+}
+
+.left>h2{
+    color: white;
+    background-color: #589d32;
+    padding: 2px 0 2px 20px;
+    border-radius: 5px;
+}
+
+.content-box>img{
+    width: 40%;
+    float: left;
+    margin: 0 8px 3px 0;
+}
+
+.content-box>p{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.left>h3{
+    color: #589d32;
+}
+
+.staff{
+    display: flex;
+    flex-direction: column;
+}
+
+.member{
+    background-color: #abdf8f;
+    border: 1px solid #abdf8f;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.member:hover{
+    background-color: white;
+}
+
+.member>img{
+    width: 150px;
+    min-width: 100px;
+    float: left;
+}
+
+.member>div{
+    width: 60%;
+    float: right;
+    padding: 10px 0 10px 0;
+    line-height: 200%;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.member>div>strong{
+    display: inline-block;
+    width: 100px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 20px;
+    width: 40%;
+}
+
+.right-box{
+    border: 1px solid #abdf8f;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.right-box:hover{
+    background-color: #abdf8f;
+}
+
+.right-box>h1{
+    color: #589d32;
+}
+
+.right-box>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+@media (max-width: 800px){
+    .member>div{
+      float: none;
+      clear: both;
+      width: auto;
+      line-height: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        padding: 0;
+    }
+
+    .right-box{
+        margin: 20px;
+    }
+}
